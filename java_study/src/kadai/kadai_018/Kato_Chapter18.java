@@ -1,16 +1,11 @@
 package kadai.kadai_018;
 
 abstract public class Kato_Chapter18 {
-	public String familyName; //姓のフィールド
+	public String familyName = "加藤"; //姓のフィールド
 	public String givenName; //名のフィールド
-	public String address; //住所のフィールド
+	public String address = "東京都中野区〇×"; //住所のフィールド
 	
-	public Kato_Chapter18(String familyNmae, String address) {
-		this.familyName = familyNmae;
-		this.address = address;
-		
-	}
-		
+			
 	 // 共通の紹介
 		public void commonIntroduce() {
 		System.out.println("名前は" + familyName + givenName + "です");	
@@ -27,3 +22,4 @@ abstract public class Kato_Chapter18 {
 	}
 	
 }
+
