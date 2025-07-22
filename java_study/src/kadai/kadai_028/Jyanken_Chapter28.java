@@ -24,10 +24,9 @@ public class Jyanken_Chapter28 {
 	public String getRandom () {
 		String[] rspArray = {"r", "s", "p"};
 		
-		Random random = new Random();
-		int num = random.nextInt(3);
+		int index = (int)(Math.floor(Math.random() * 3));
 		
-		return rspArray[num];
+		return rspArray[index];
 		
 	}
 	
